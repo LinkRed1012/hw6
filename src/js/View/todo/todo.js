@@ -3,7 +3,7 @@ import './App.css';
 import TodoList from './Components/TodoList';
 import TodoItem from './Components/TodoItem';
 
-class todo extends Component {
+class Todo extends Component {
   
     constructor(){
         super();
@@ -91,4 +91,4 @@ class todo extends Component {
   }
 }
 
-export default todo;
+export default Todo;
