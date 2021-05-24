@@ -1,7 +1,7 @@
 .done {
-    color: red;
+    color:greenyellow;
     text-decoration: line-through;
   }
 .undone {
-  color: #61DAFB;
+  color: deeppink;
  }
