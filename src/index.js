@@ -2,7 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import TodoApp from './TodoApp.js';
+import Date from './date.js';
+
+ReactDOM.render(
+    // <React.StrictMode>
+    //   <App />
+    // </React.StrictMode>,
+    <Date/>,
+    document.getElementById('root')
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
